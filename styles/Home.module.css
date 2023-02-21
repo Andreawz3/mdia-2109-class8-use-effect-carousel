@@ -1,0 +1,52 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6rem;
+  min-height: 50vh;
+}
+
+.useEffect {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.useEffectTypes {
+  display: flex;
+  gap: 10px;
+}
+
+.useEffectLinks {
+  text-decoration: none;
+  color: var(--black);
+  padding: 10px;
+  background-color: var(--pink);
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.useEffectLinks:hover {
+  opacity: 0.8;
+}
+
+.next {
+  display: flex;
+  position: absolute;
+  top: 35%;
+  left: 34%;
+}
+
+.carouselPage{
+  text-decoration: none;
+  color: var(--black);
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+  color: var(--black);
+}
+
+.carouselPage:hover {
+  color: var(--light-pink);
+}
